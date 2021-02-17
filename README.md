@@ -1,22 +1,19 @@
-STRML.net
-=========
+# [Hobr.site](https://hobr.site/)
 
-[View Site](http://strml.net)
+[Base on STRML.NET](https://github.com/STRML/strml.net)
 
-Building
---------
+## Building
 
 ```bash
-git clone git@github.com:STRML/strml.net.git
-cd strml.net
-npm install
-npm run dev
-# Open localhost:4003/index-dev.html in your browser
+gh repo clone Hobr/homepage
+
+cd homepage
+yarn install
+yarn dev
 ```
 
-Building for Production
---------
+## Building for Production
 
 ```bash
-npm run build
+yarn build
 ```

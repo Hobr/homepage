@@ -1,6 +1,7 @@
 /* I'm cheating a bit */
 
-html, body {
+html,
+body {
   margin-top: 0;
   height: 100%;
   overflow: hidden;
@@ -15,7 +16,10 @@ pre {
 
 #content {
   position: absolute;
-  top: 0; right: 0; left: 0; bottom: 20px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 20px;
 }
 
 #header {
@@ -28,7 +32,7 @@ pre {
 }
 
 a:after {
-  content: '';
+  content: "";
   padding-right: 5px;
   border-right-width: 1px;
   border-right-style: solid;

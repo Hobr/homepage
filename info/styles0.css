@@ -1,0 +1,133 @@
+/*
+ *
+ * 欢迎来到Hobr的个人首页～
+ *
+ * It's show time.
+ *
+ */
+
+/*
+ *
+ * 下面开始一段在线动画
+ *
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/*
+ *
+ * 好像没什么改变诶
+ *
+ * 黑白太难看了，改！
+ * 
+ */
+
+html {
+  background: url("https://blog.hobr.site/wp-content/uploads/2021/02/994176-scaled.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/*
+ *
+ * emmmm....
+ *
+ */
+
+pre,
+a {
+  color: rgba(255, 255, 255, 0.61);
+}
+
+/*
+ *
+ * 看起来貌似好多啦！
+ *
+ * 但是空间这么大...加个框吧～
+ *
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(54, 52, 52);
+  border: 1px solid #ccc;
+  max-height: 45vh;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 1vh 0.5vw;
+  box-shadow: -4px 4px 2px 0 rgba(19, 18, 18, 0.315);
+  white-space: pre-wrap;
+  outline: 0;
+  margin: 1vh 0.5vw;
+}
+
+/*
+ *
+ * 还好，下面调整下位置
+ *
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+/*
+ *
+ * 改！
+ *
+ * 看起来不错，但字好像都是白的
+ *
+ * 再改！
+ *
+ */
+
+.comment {
+  color: #b8ad8b;
+  font-style: italic;
+}
+.selector {
+  color: #fddd27;
+}
+.selector .key {
+  color: #72d7e9;
+}
+.key {
+  color: #36aec4;
+}
+.value {
+  color: #b46bf3;
+}
+.value.px {
+  color: #ff468d;
+}
+
+/*
+ *
+ * 来丶立体感
+ *
+ */
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#style-text {
+  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  max-height: 93.1vh;
+}
+
+/*
+ *
+ * 下面康康我的自我介绍～
+ *
+ */
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}

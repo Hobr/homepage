@@ -1,0 +1,25 @@
+Hobr's Homepage
+=========
+
+Hobr
+致力于计算机科学的文科生
+全栈 / 后端 / 运维
+
+联系方式
+-------
+
+* E-Mail hobrimttxx@gmail.com
+* QQ 1270329917
+* 更多详见页面底部
+
+擅长的语言
+--------
+
+* Pawn
+* Ruby
+* C/CPP
+* Python
+* JavaScript TypeScript
+* PHP
+* HTML CSS
+* Verilog

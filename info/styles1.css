@@ -1,0 +1,29 @@
+/*
+ *
+ * 左面的Markdown貌似不好康，让我们改改
+ *
+ */
+
+#work-text.flipped {
+  -webkit-transform: rotateX(0deg) rotateY(190deg) rotateZ(180deg);
+}
+
+#work-text .md {
+  -webkit-transform: rotateY(190deg) rotateZ(180deg);
+  margin-top: 800px;
+}
+
+/*
+ *
+ * 见证奇迹的时候到了！
+ *
+ * 3...
+ * 2...
+ * 1...
+ *
+ * .
+ * 吓你玩玩而已～
+ *
+ * Let's go!
+ *
+ */
